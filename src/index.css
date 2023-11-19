@@ -1,3 +1,15 @@
+* {
+    margin: 0;
+    color: #333;
+    font-size: larger;
+}
+
 .navbar {
-    display: block;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    margin :0 auto;
+    border-bottom: 1px solid #f2f2f2;
+    
 }
