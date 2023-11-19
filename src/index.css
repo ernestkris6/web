@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    font-size: larger;
+}
+
+.navbar {
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    max-width: 600px;
+    border-bottom: 2px solid #c1630b;
+    margin: 0 auto;
+
+}
+
+.navbar h1 {
+    color: #c1630b;
+}
+
+.navbar .links {
+    margin-left: auto;
+    float: right;
+    
+}
+
+.navbar a {
+    font-size: 24px;
+    display: inline;
+    float: left;
+    margin-left: 16px;
+    text-decoration: none;
+    
+}
