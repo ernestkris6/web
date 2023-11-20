@@ -3,7 +3,7 @@ const Navbar = () => {
         <div className="navbar">
             <div className="">
                 <h1>Kris Blog</h1>
-                <div className="">
+                <div className="links">
                     <a href="/">Home</a>
                     <a href="/blogs">BLOG</a>
                 </div>
