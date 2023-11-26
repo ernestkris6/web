@@ -10,7 +10,7 @@ const Navbar =() => {
         </div>
         <div className='links'>
             <a href='/' >Home</a>
-            <a href='Blogs'>BLOGS</a>
+            <a style={{backgroundColor:'#c1630b', borderRadius:'12px', color: 'white', padding: '6px' }} href='Blogs'>BLOGS</a>
         </div>
     </div>
   )
