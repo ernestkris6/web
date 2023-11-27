@@ -1,4 +1,6 @@
-.home {
+.home p{
     margin: 0 auto;
-    
+    max-width: 600px;
+    align-items: center;
+    padding: 20px; 
 }
