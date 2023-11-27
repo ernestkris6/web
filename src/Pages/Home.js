@@ -19,6 +19,7 @@ const Home = () => {
             <h2>{blog.title}</h2>
             <p>{blog.body}</p>
             <h3><i>{blog.author}</i></h3>
+            <button>More...</button>
         </div>
      );
 }
