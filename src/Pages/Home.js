@@ -16,9 +16,9 @@ const Home = () => {
     
     return ( 
         <div className='home'>
-            <p>{blog.title}</p>
+            <h2>{blog.title}</h2>
             <p>{blog.body}</p>
-            <p><i>{blog.author}</i></p>
+            <h3><i>{blog.author}</i></h3>
         </div>
      );
 }
