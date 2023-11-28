@@ -1,5 +1,10 @@
-[
-    {
-        
-    }
-]
+{
+    "blogs" : [
+        {
+        "title": "God is too faithful to me",
+        "body": "It's a new year for me",
+        "author": "Ernest",
+        "id": 1
+        }
+    ]
+}
