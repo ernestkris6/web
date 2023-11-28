@@ -1,18 +1,14 @@
-import React, {useState} from 'react'
+import React from 'react';
+import './Blog.css';
 
-const Blog = ({title, author, body}) => {
 
-    const [blogs, setBlogs] = useState([
-        {title : "Web Dev Classes", author : "Ernie", body : "Lorem ipsum dolor", id : "1"},
-        {title : "How to code", author : "Emma", body : "Lorem ipsum dolor",  id : "2"},
-        {title : "Keeping up with programming", author : "Josh", body : "Lorem ipsum dolor",  id : "3"}
-    ])
-
+const Blog = ({blogs, title, author, body}) => {
 
     return ( 
-       <div>
+       <div >
+        {title}
              {blogs.map((blog) => (
-            <div>
+            <div className='blog-list'>
                 <h2>{blog.title}</h2>
                 <p>{blog.body}</p>
                 <h4><i>{blog.author}</i></h4>
