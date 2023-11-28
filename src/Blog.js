@@ -10,7 +10,8 @@ const Blog = () => {
 
 
     return ( 
-        {blogs.map((blog) => (
+       <div>
+             {blogs.map((blog) => (
             <div>
                 <h2>{blog.title}</h2>
                 <p>{blog.body}</p>
@@ -18,6 +19,7 @@ const Blog = () => {
 
                 <button>See more...</button>
             </div>))}
+       </div>
      );
 }
  
