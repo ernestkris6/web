@@ -5,8 +5,8 @@ import './Blog.css';
 const Blog = ({blogs, title, author, body}) => {
 
     return ( 
-       <div >
-        {title}
+       <div>
+        <h1> {title}</h1>
              {blogs.map((blog) => (
             <div className='blog-list'>
                 <h2>{blog.title}</h2>
