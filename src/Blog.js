@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 
-const Blog = () => {
+const Blog = ({title, author, body}) => {
 
     const [blogs, setBlogs] = useState([
         {title : "Web Dev Classes", author : "Ernie", body : "Lorem ipsum dolor", id : "1"},
