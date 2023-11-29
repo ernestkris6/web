@@ -13,7 +13,7 @@ const Blog = ({blogs, title, author, body}) => {
                 <p>{blog.body}</p>
                 <h4><i>{blog.author}</i></h4>
 
-                <button>See more...</button>
+                <button>DELETE</button>
             </div>))}
        </div>
      );
