@@ -12,6 +12,11 @@ const Home = () => {
         {title : "Keeping up with programming", author : "Josh", body : "Lorem ipsum dolor",  id : "3"}
     ]);
 
+
+    handleDelete = id => {
+      blogs = blogs.filter(!blog.id === id)
+      setBlogs()
+    }
     // const [otp, setOtp] = useState('');
 
     // const generateOtp = () => {
@@ -19,9 +24,11 @@ const Home = () => {
     //     setOtp(randomOtp.toString());
     //   }
      
+
+
     return ( 
         <div className='home'>
-            <Blog blogs={blogs} title='ALL BLOGS'/>
+            <Blog blogs={blogs} handleDelete={handleDelete} title='ALL BLOGS'/>
             <Blog blogs={blogs} title='ALL BLOGS'/>
             {/* <p>Your OTP Code is: {otp}</p>
             <button onClick={generateOtp}>generateOtp</button> */}
