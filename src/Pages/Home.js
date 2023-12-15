@@ -13,17 +13,17 @@ const Home = () => {
     ]);
 
 
-    // handleDelete = id => {
-    //   blogs = blogs.filter(!blog.id === id)
-    //   setBlogs()
-    // }
+    handleDelete = id => {
+      blogs = blogs.filter(!blog.id === id)
+      setBlogs()
+    }
 
-    // const [otp, setOtp] = useState('');
+    const [otp, setOtp] = useState('');
 
-    // const generateOtp = () => {
-    //     const randomOtp = Math.floor(100000 + Math.random() * 900000);
-    //     setOtp(randomOtp.toString());
-    //   }
+    const generateOtp = () => {
+        const randomOtp = Math.floor(100000 + Math.random() * 900000);
+        setOtp(randomOtp.toString());
+      }
      
 
 
