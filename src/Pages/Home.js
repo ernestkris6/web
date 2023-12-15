@@ -31,8 +31,8 @@ const Home = () => {
         <div className='home'>
             <Blog blogs={blogs} title='ALL BLOGS'/>
             <Blog blogs={blogs} title='ALL BLOGS'/>
-            {/* <p>Your OTP Code is: {otp}</p>
-            <button onClick={generateOtp}>generateOtp</button> */}
+            <p>Your OTP Code is: {otp}</p>
+            <button onClick={generateOtp}>generateOtp</button>
         </div>
      );
 }
