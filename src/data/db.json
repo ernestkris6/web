@@ -2,8 +2,10 @@
     {
         "data" : [
             {
-                "id" : "1"
-            }
+                "id" : "1",
+                "body" : "Lorem ipsum dolor...",
+                "author" : "David"
+                        }
         ]
     }
 ]
