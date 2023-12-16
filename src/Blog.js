@@ -8,7 +8,7 @@ const Blog = ({blogs, title, author, body}) => {
        <div>
         <h1> {title}</h1>
              {blogs.map((blog) => (
-            <div className='blog-list'>
+            <div className='blog-list' key={blog.id}>
                 <h2>{blog.title}</h2>
                 <p>{blog.body}</p>
                 <h4><i>{blog.author}</i></h4>
