@@ -13,26 +13,16 @@ const Home = () => {
     ]);
 
 
-    // handleDelete = id => {
-    //   blogs = blogs.filter(!blog.id === id)
-    //   setBlogs()
-    // }
-
-    // const [otp, setOtp] = useState('');
-
-    // const generateOtp = () => {
-    //     const randomOtp = Math.floor(100000 + Math.random() * 900000);
-    //     setOtp(randomOtp.toString());
-    //   }
-     
+    handleDelete = (id) => {
+      const newBlogs = blogs.filter(blog => blog.id !== id);
+      setBlogs(newBlogs);
+    }    
 
 
     return ( 
         <div className='home'>
-            <Blog blogs={blogs} title='ALL BLOGS'/>
-            <Blog blogs={blogs} title='ALL BLOGS'/>
-            {/* <p>Your OTP Code is: {otp}</p>
-            <button onClick={generateOtp}>generateOtp</button> */}
+            <Blog blogs={blogs} handleDelete={handleDelete}  title='ALL BLOGS'/>
+    
         </div>
      );
 }

@@ -2,11 +2,8 @@ import React from 'react';
 import './Blog.css';
 
 
-const Blog = ({blogs, title, author, body}) => {
+const Blog = ({blogs, title, author, body, handleDelete}) => {
 
-    const handleDelete = (id) => {
-
-    }
 
     return ( 
        <div>
@@ -17,7 +14,7 @@ const Blog = ({blogs, title, author, body}) => {
                 <p>{blog.body}</p>
                 <h4><i>{blog.author}</i></h4>
 
-                <button onClick={handleDelete(blog.id)}>DELETE</button>
+                <button onClick={handleDelete}>DELETE</button>
             </div>))}
        </div>
      );
