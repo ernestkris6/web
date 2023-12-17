@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import './Home.css'
 
 import Blog from '../Blog';
@@ -20,9 +20,10 @@ const Home = () => {
 
     //Useffect hook
 
-    // useEffect(()=> {
-    //     console.log("use effect ran");
-    // }, [])
+    useEffect(()=> {
+        console.log("use effect ran");
+        console.log(blogs);
+    }, [])
 
 
     return ( 
