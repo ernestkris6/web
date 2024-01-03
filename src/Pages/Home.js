@@ -13,10 +13,6 @@ const Home = () => {
     ]);
 
 
-   const handleDelete = (id) => {
-      const newBlogs = blogs.filter(blog => blog.id !== id);
-      setBlogs(newBlogs);
-    }    
 
     //Useffect hook
 
@@ -28,7 +24,7 @@ const Home = () => {
 
     return ( 
         <div className='home'>
-            <Blog blogs={blogs} handleDelete={handleDelete} title='ALL BLOGS'/>
+            <Blog blogs={blogs} title='ALL BLOGS'/>
     
         </div>
      );
