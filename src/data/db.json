@@ -1,22 +1,10 @@
-[
-    {
-        "data" : [
-            {
-                "id" : "1",
-                "title" : "Web Dev Tool Kits",
-                "body" : "Lorem ipsum dolor...",
-                "author" : "David"
-                        
-            },
-
-            {
-                "id" : "1",
-                "title" : "Web Dev Tool Kits",
-                "body" : "Lorem ipsum dolor...",
-                "author" : "David"
-                        
-            }
-
-        ]
-    }
-]
+{
+    "blogs" : [
+        {
+            "id" : "1",
+            "title" : "Web Dev Tools",
+            "body" : "Lorem ipsum dolor...",
+            "author" : "Ernest"
+        }
+    ]
+}
