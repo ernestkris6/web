@@ -10,19 +10,13 @@
             },
 
             {
-                "id" : "2",
-                "title" : "Web Dev Tool Kits",
-                "body" : "Lorem ipsum dolor...",
-                "author" : "David"
-                        
-            },
-
-            {
-                "id" : "3",
+                "id" : "1",
                 "title" : "Web Dev Tool Kits",
                 "body" : "Lorem ipsum dolor...",
                 "author" : "David"
                         
             }
+
+        ]
     }
 ]
