@@ -12,10 +12,10 @@ const Home = () => {
         {title : "Keeping up with programming", author : "Dave", body : "Lorem ipsum dolor",  id : "3"}
     ]);
 
-    const handleDelete = (id) => {
-        const newBlogs = blogs.filter(blog => blog.id !== id)
-        setBlogs(newBlogs)
-    }
+   const handleDelete = (id) => {
+    const newBlogs = blogs.filter(blog => blog.id !== id);
+    setBlogs(newBlogs)
+   }
 
     
     //Useffect hook
