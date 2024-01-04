@@ -9,7 +9,7 @@ const Navbar =() => {
             <h1>Kris Blog</h1>
         </div>
         <div className='links'>
-            <a href='/' >Home</a>
+            <a href='/'>Home</a>
             <a style={{
             backgroundColor:'#c1630b', 
             borderRadius:'12px', 
