@@ -6,6 +6,8 @@ import Blog from '../Blog';
 
 const Home = () => {
 
+    // const [isPending, setIsPending] = useState(false);
+
       const [blogs, setBlogs] = useState([
         {title : "Web Dev Classes", author : "Ernie", body : "Lorem ipsum dolor", id : "1"},
         {title : "How to code", author : "Emma", body : "Lorem ipsum dolor",  id : "2"},
