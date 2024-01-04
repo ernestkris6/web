@@ -29,7 +29,7 @@ const Home = () => {
     return ( 
         <div className='home'>
             <Blog blogs={blogs} handleDelete={handleDelete} title='ALL BLOGS'/>
-    
+            <Blog blogs={blogs} handleDelete={handleDelete} title='ALL BLOGS'/>
         </div>
      );
 }
