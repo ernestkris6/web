@@ -8,11 +8,7 @@ const Home = () => {
 
     // const [isPending, setIsPending] = useState(false);
 
-      const [blogs, setBlogs] = useState([
-        {title : "Web Dev Classes", author : "Ernie", body : "Lorem ipsum dolor", id : "1"},
-        {title : "How to code", author : "Emma", body : "Lorem ipsum dolor",  id : "2"},
-        {title : "Keeping up with programming", author : "Dave", body : "Lorem ipsum dolor",  id : "3"}
-    ]);
+      const [blogs, setBlogs] = useState(null);
 
    const handleDelete = (id) => {
     const newBlogs = blogs.filter(blog => blog.id !== id);
@@ -22,10 +18,10 @@ const Home = () => {
     
     //Useffect hook
 
-    // useEffect(()=> {
-    //     console.log("use effect ran");
-    //     console.log(blogs);
-    // }, [])
+    useEffect(()=> {
+        console.log("use effect ran");
+        console.log(blogs);
+    }, [])
 
 
     return ( 
