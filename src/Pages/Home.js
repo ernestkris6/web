@@ -19,9 +19,9 @@ const Home = () => {
     //Useffect hook
 
     useEffect(()=> {
-        fetch(' http://localhost:8000/blogs')
-        .then((res)=> {
-            res.json();
+        fetch('http://localhost:8000/blogs')
+        .then(res => {
+           return res.json();
         })
         .then((data) => {
             console.log(data);
