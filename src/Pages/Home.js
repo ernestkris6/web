@@ -19,8 +19,13 @@ const Home = () => {
     //Useffect hook
 
     useEffect(()=> {
-        console.log("use effect ran");
-        console.log(blogs);
+        fetch(' http://localhost:8000/blogs')
+        .then((res)=> {
+            res.json();
+        })
+        .then((data) => {
+            console.log(data);
+        })
     }, [])
 
 
