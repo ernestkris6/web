@@ -9,6 +9,7 @@ const Home = () => {
     // const [isPending, setIsPending] = useState(false);
 
       const [blogs, setBlogs] = useState(null);
+      const [isPending, setIsPending] = useState(true);
 
    const handleDelete = (id) => {
     const newBlogs = blogs.filter(blog => blog.id !== id);
