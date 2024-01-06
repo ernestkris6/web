@@ -26,7 +26,8 @@ const Home = () => {
         })
         .then((data) => {
             console.log(data);
-            setBlogs(data)
+            setBlogs(data);
+            setIsPending(false);
         });
     }, []);
 
