@@ -20,15 +20,17 @@ const Home = () => {
     //Useffect hook
 
     useEffect(()=> {
-        fetch('http://localhost:8000/blogs')
-        .then(res => {
-           return res.json();
-        })
-        .then((data) => {
-            console.log(data);
-            setBlogs(data);
+        setTimeout(() => {
+         fetch(' http://localhost:8000/blogs')
+         .then(res => {
+            return res.json()
+         })
+         .then(data => {
+            setBlogs(data)
             setIsPending(false);
-        });
+         })
+            
+        }, 2000);
     }, []);
 
 
