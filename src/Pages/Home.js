@@ -10,7 +10,7 @@ const Home = () => {
 
       const [blogs, setBlogs] = useState(null);
       const [isPending, setIsPending] = useState(true);
-
+      const [error, setError] = useState(null)
    const handleDelete = (id) => {
     const newBlogs = blogs.filter(blog => blog.id !== id);
     setBlogs(newBlogs)
@@ -21,9 +21,8 @@ const Home = () => {
 
     useEffect(()=> {
         setTimeout(() => {
-         fetch(' http://localhost:8000/blogs')
+         fetch(' http://localhost:8000/blogss')
          .then(res => {
-
             if(!res.ok) {
                throw('response not okay')
             }
@@ -33,6 +32,7 @@ const Home = () => {
          .then(data => {
             setBlogs(data)
             setIsPending(false);
+            setError(true)
          })
          .catch(err => {
             console.log(err.message);
@@ -45,6 +45,7 @@ const Home = () => {
 
     return ( 
         <div className='home'>
+            {error && <div>{error}</div>}
             {isPending && <div>Loading...</div>}
             {blogs && <Blog blogs={blogs} handleDelete={handleDelete} title='ALL BLOGS'/>}
             {blogs && <Blog blogs={blogs} handleDelete={handleDelete} title='ALL BLOGS'/>}
