@@ -23,7 +23,8 @@ const Home = () => {
         setTimeout(() => {
          fetch(' http://localhost:8000/blogs')
          .then(res => {
-            return res.json()
+            // return res.json()
+            console.log(res);
          })
          .then(data => {
             setBlogs(data)
