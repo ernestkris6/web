@@ -22,7 +22,7 @@ const Home = () => {
 
     useEffect(()=> {
         setTimeout(() => {
-         fetch(' http://localhost:8000/blogs')
+         fetch(' http://localhost:8000/bloggs')
          .then(res => {
             if(!res.ok) {
                throw Error('Could not fetch data!!!')
@@ -38,7 +38,7 @@ const Home = () => {
          .catch(err => {
             console.log(err.message);
             setError(err.message)
-            setIsPending(null)
+            setIsPending(false)
          })
             
         }, 2000);
