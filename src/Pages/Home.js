@@ -10,8 +10,9 @@ const Home = () => {
 
       const [blogs, setBlogs] = useState(null);
       const [isPending, setIsPending] = useState(true);
-      const [error, setError] = useState(null)
-   const handleDelete = (id) => {
+      const [error, setError] = useState(null);
+
+    const handleDelete = (id) => {
     const newBlogs = blogs.filter(blog => blog.id !== id);
     setBlogs(newBlogs)
    }
@@ -21,10 +22,10 @@ const Home = () => {
 
     useEffect(()=> {
         setTimeout(() => {
-         fetch(' http://localhost:8000/blogss')
+         fetch(' http://localhost:8000/blogs')
          .then(res => {
             if(!res.ok) {
-               throw('response not okay')
+               throw Error('Could not fetch data!!!')
             }
             return res.json()
             // console.log(res);
@@ -37,6 +38,7 @@ const Home = () => {
          .catch(err => {
             console.log(err.message);
             setError(err.message)
+            setIsPending(null)
          })
             
         }, 2000);
