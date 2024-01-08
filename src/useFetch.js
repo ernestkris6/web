@@ -31,6 +31,8 @@ const useFetch = () => {
             }, 2000);
         }, [])
      );
+
+     return {data, isPending, error};
 }
  
 export default useFetch;
