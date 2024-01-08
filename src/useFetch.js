@@ -1,6 +1,6 @@
 import {useEffect, useState} from 'react'
 
-const useFetch = () => {
+const useFetch = (url) => {
 
     const [data, setData] = useState(null);
     const [isPending, setIsPending] = useState(true);
@@ -9,7 +9,7 @@ const useFetch = () => {
     return ( 
         useEffect(()=> {
             setTimeout(() => {
-             fetch(' http://localhost:8000/bloggs')
+             fetch(url)
              .then(res => {
                 if(!res.ok) {
                    throw Error('Could not fetch data!!!')
@@ -29,7 +29,7 @@ const useFetch = () => {
              })
                 
             }, 2000);
-        }, [])
+        }, [url])
      );
 
      return {data, isPending, error};
