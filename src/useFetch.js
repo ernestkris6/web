@@ -15,7 +15,7 @@ const useFetch = (url) => {
                    throw Error('Could not fetch data!!!')
                 }
                 return res.json()
-                // console.log(res);
+                console.log(res);
              })
              .then(data => {
                 setData(data)
@@ -32,7 +32,7 @@ const useFetch = (url) => {
         }, [url])
      );
 
-     return {data, isPending, error};
+     return {data, isPending, error}
 }
  
 export default useFetch;

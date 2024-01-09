@@ -2,7 +2,7 @@ import React from 'react';
 import './Blog.css';
 
 
-const Blog = ({blogs, title, author, body, handleDelete}) => {
+const Blog = ({blogs, title, author, body}) => {
 
 
     return ( 
@@ -14,7 +14,7 @@ const Blog = ({blogs, title, author, body, handleDelete}) => {
                 <p>{blog.body}</p>
                 <h4><i>{blog.author}</i></h4>
 
-                <button onClick={()=> handleDelete(blog.id)}>DELETE</button>
+                <button>DELETE</button>
             </div>))}
        </div>
      );
