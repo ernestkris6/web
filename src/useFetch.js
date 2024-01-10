@@ -1,14 +1,14 @@
-// import {useEffect, useState} from 'react'
+import {useEffect, useState} from 'react'
 
-// const useFetch = (url) => {
+const useFetch = (url) => {
 
    
-//     return ( 
-//         <div>
+    return ( 
+        <div>
 
-//         </div>
-//      );
+        </div>
+     );
 
-// }
+}
  
-// export default useFetch;
+export default useFetch;
