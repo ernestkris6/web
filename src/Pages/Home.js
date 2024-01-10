@@ -14,7 +14,7 @@ const Home = () => {
     const [error, setError] = useState(null);
     useEffect(()=> {
         setTimeout(() => {
-         fetch('http://lovalhost:8000/blogs')
+         fetch('http://localhost:8000/blogs')
          .then(res => {
             if(!res.ok) {
                throw Error('Could not fetch data!!!')
