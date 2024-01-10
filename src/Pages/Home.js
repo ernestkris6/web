@@ -2,18 +2,16 @@ import React, {useEffect, useState} from 'react';
 import './Home.css'
 
 import Blog from '../Blog';
-// import useFetch from '../useFetch';
+import useFetch from '../useFetch';
 
 
 const Home = () => {
 
     // const [isPending, setIsPending] = useState(false);
-   
-    const [blogs, setBlogs] = useState(null);
-    const [isPending, setIsPending] = useState(true);
-    const [error, setError] = useState(null);
-    
 
+    const {data:blogs, isPending, error} = useFetch('http://localhost:8000/blogs')
+    
+  
 
    //  const handleDelete = (id) => {
    //  const newBlogs = blogs.filter(blog => blog.id !== id);
@@ -31,4 +29,4 @@ const Home = () => {
      );
 }
  
-export default Home;
+export default Home; 
