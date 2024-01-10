@@ -6,8 +6,6 @@ const useFetch = (url) => {
     const [isPending, setIsPending] = useState(true);
     const [error, setError] = useState(null);
 
-
-    
         useEffect(()=> {
             setTimeout(() => {
              fetch(url)
