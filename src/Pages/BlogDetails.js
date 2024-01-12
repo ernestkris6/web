@@ -1,3 +1,5 @@
+import './BlogDetails.css';
+
 const BlogDetails = () => {
     return ( 
         <div className="blog-details">
