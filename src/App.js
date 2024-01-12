@@ -4,7 +4,7 @@ import Navbar from './Component/Navbar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home';
 import Create from './Pages/Create';
-import Blog from './Blog';
+import BlogDetails from './Pages/BlogDetails';
 
 const App =() => {
   return (
@@ -14,7 +14,7 @@ const App =() => {
         <Routes>
           <Route exact path="/" element={<Home />}>Home</Route>
           <Route path='/create' element={<Create />}></Route>
-          <Route path='/blog' element={<Blog />}></Route>
+          <Route path='/blogs/:id' element={<BlogDetails />}></Route>
         </Routes>
         </BrowserRouter>
     </div>
