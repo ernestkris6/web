@@ -1,7 +1,9 @@
+import './Create.css';
+
 const Create = () => {
     return ( 
-        <div>
-            <h1>Create</h1>
+        <div className="create">
+            <h1>Add a new blog</h1>
         </div>     
         );
 }
