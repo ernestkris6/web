@@ -1,9 +1,12 @@
+import { useParams } from 'react-router-dom';
 import './BlogDetails.css';
 
 const BlogDetails = () => {
+    const { id } = useParams();
+
     return ( 
         <div className="blog-details">
-            <h1>Blog Details</h1>
+            <h1>Blog Details - { id }</h1>
         </div>
      );
 }
