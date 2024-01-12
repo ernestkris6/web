@@ -5,6 +5,12 @@
             "title" : "Web Dev Tools",
             "body" : "Lorem ipsum dolor...",
             "author" : "Ernest"
+        },
+        {
+            "id" : "2",
+            "title" : "Learning how to code",
+            "body" : "Lorem ipsum dolor...",
+            "author" : "Emma"
         }
     ]
 }
