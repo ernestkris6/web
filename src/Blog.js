@@ -7,7 +7,7 @@ const Blog = ({blogs, title, author, body}) => {
 
 
     return ( 
-       <div>
+       <div className=''>
         <h1> {title}</h1>
              {blogs.map((blog) => (
             <div className='blog-list' key={blog.id}>

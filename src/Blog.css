@@ -7,3 +7,7 @@
  .blog-list:hover {
     box-shadow: 2px 5px 5px 5px rgba(0, 0, 0.5, 0.1);
  }
+
+ .blog-title a{
+   text-decoration: none;
+}
