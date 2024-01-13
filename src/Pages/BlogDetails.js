@@ -3,15 +3,19 @@ import './BlogDetails.css';
 import useFetch from '../useFetch';
 const BlogDetails = () => {
     const { id } = useParams();
-    const {data, isPending, error} = useFetch('http://localhost:8000/blogs/' + id);
+    const {data: blog, isPending, error} = useFetch('http://localhost:8000/blogs/' + id);
 
 
     return ( 
         <div className="blog-details">
             <h1>Blog Details - { id }</h1>
-            { isPending && <div>Loading...</div>}
-            {error && <div>{ error }</div>}
-            { data }
+            { isPending && <div>Loading...</div> }
+            { error && <div>{ error }</div> }
+            { blog && (
+                <article>
+                    <h2></h2>
+                </article>
+            ) }
         </div>
      );
 }
