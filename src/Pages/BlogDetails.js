@@ -9,7 +9,7 @@ const BlogDetails = () => {
 
     return ( 
         <div className="blog-details">
-            {/* <h1>Blog Details - { id }</h1> */}
+            <h1>Blog Details - { id }</h1>
             { isPending && <div>Loading...</div> }
             { error && <div>{ error }</div> }
             { blog && (
