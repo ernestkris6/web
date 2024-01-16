@@ -12,6 +12,10 @@
 
 .create input, .create textarea, .create select {
     width: 100%;
-    padding: 20px 8px;
+    padding: 6px 10px;
     margin: 12px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
 }
+
