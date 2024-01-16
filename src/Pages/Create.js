@@ -17,6 +17,13 @@ const Create = () => {
                 required
                 ></textarea>
 
+                <label>Blog author:</label>
+                <select>
+                    <option value="Ernest">Ernest</option>
+                    <option value="Emma">Emma</option>
+                </select>
+
+                <button>Submit</button>
             </form>
         </div>     
         );
