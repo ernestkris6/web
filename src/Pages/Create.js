@@ -1,6 +1,8 @@
 import './Create.css';
 
 const Create = () => {
+
+    // const []
     return ( 
         <div className="create">
             <h1>Add a new blog</h1>
