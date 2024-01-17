@@ -19,3 +19,11 @@
     display: block;
 }
 
+.create button {
+    background-color: #f1356d;
+    border: none;
+    padding: 8px;
+    border-radius: 12px;
+    color: #fff;
+    
+}
