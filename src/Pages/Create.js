@@ -1,8 +1,9 @@
+import { useState } from 'react';
 import './Create.css';
 
 const Create = () => {
 
-    // const []
+    const [title, setTitle] = useState('')
     return ( 
         <div className="create">
             <h1>Add a new blog</h1>
@@ -12,6 +13,9 @@ const Create = () => {
                 <input 
                 type='text' 
                 required 
+                value={title}
+                onChange={(e) => setTitle(e.target.value)}
+
                 />
 
                 <label>Blog body:</label>
