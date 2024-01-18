@@ -40,7 +40,7 @@ const Create = () => {
                     <option value="Emma">Emma</option>
                 </select>
 
-                <button>Submit</button>
+                <button>Add Blog</button>
                 
             </form>
         </div>     
