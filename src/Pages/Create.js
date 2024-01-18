@@ -3,8 +3,9 @@ import './Create.css';
 
 const Create = () => {
 
-    const [title, setTitle] = useState('')
+    const [title, setTitle] = useState('');
     const [body, setBody] = useState('');
+    const [author, setAuthor] = useState("Ernest");
 
     const handleSubmit = (e) => {
         e.preventDefault()
@@ -32,12 +33,15 @@ const Create = () => {
                 ></textarea>
 
                 <label>Blog author:</label>
-                <select>
+                <select 
+                value={author}
+                onChange={(e) => setAuthor(e.target.value)}>
                     <option value="Ernest">Ernest</option>
                     <option value="Emma">Emma</option>
                 </select>
 
                 <button>Submit</button>
+                
             </form>
         </div>     
         );
