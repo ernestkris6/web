@@ -14,7 +14,7 @@ const BlogDetails = () => {
             { error && <div>{ error }</div> }
             { blog && (
                 <article>
-                    <h2>{ blog.title }</h2>
+                    <h3>{ blog.title }</h3>
                 <p><b><i>Written by { blog.author }</i></b></p> <br></br>
                <div><h3>{ blog.body }</h3></div> 
                 </article>
