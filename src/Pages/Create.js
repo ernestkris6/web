@@ -4,6 +4,8 @@ import './Create.css';
 const Create = () => {
 
     const [title, setTitle] = useState('')
+    const [body, setBody] = useState('');
+
     return ( 
         <div className="create">
             <h1>Add a new blog</h1>
@@ -21,6 +23,8 @@ const Create = () => {
                 <label>Blog body:</label>
                 <textarea
                 required
+                value={body}
+                onChange={(e) => setBody(e.target.value)}
                 ></textarea>
 
                 <label>Blog author:</label>
