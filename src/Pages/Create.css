@@ -19,13 +19,22 @@
     display: block;
 }
 
+.create label {
+    text-align: left;
+    display: block;
+    margin-left: 12px;
+}
+
 .create button {
     background-color: #f1356d;
     border: none;
-    padding: 8px;
+    padding: 12px;
     border-radius: 12px;
     color: #fff;
     cursor: pointer;
-    width: 600px;
+    margin-left: 280px;
+    margin-top: 10px;
+    font-size: large;
+    
     
 }
