@@ -1,13 +1,13 @@
 {
     "blogs" : [
         {
-            "id" : "1",
+            "id" : 1,
             "title" : "Web Dev Tools",
             "body" : "Lorem ipsum dolor...",
             "author" : "Ernest"
         },
         {
-            "id" : "2",
+            "id" : 2,
             "title" : "Learning how to code",
             "body" : "Lorem ipsum dolor...",
             "author" : "Emma"

@@ -17,6 +17,7 @@
     border: 1px solid #ddd;
     box-sizing: border-box;
     display: block;
+    outline: none;
 }
 
 .create label {
