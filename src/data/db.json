@@ -1,202 +1,28 @@
 {
   "blogs": [
     {
+      "id": 1,
+      "title": "Web Dev Tools",
+      "body": "Lorem ipsum dolor...",
+      "author": "Ernest"
+    },
+    {
       "id": 2,
       "title": "Learning how to code",
       "body": "Lorem ipsum dolor...",
       "author": "Emma"
     },
     {
-      "title": "hgv",
-      "body": "nnv",
-      "author": "Ernest",
-      "id": 3
+      "id": 3,
+      "title": "Learning how to code 2",
+      "body": "Lorem ipsum dolor...",
+      "author": "Josh"
     },
     {
-      "title": "hgv",
-      "body": "nnv",
-      "author": "Ernest",
+      "title": "sleep",
+      "body": "good sleep",
+      "author": "Emma",
       "id": 4
-    },
-    {
-      "title": "hgv",
-      "body": "nnv",
-      "author": "Ernest",
-      "id": 5
-    },
-    {
-      "title": "hgv",
-      "body": "nnv",
-      "author": "Ernest",
-      "id": 6
-    },
-    {
-      "title": "hgv",
-      "body": "nnv",
-      "author": "Ernest",
-      "id": 7
-    },
-    {
-      "title": "hgv",
-      "body": "nnv",
-      "author": "Ernest",
-      "id": 8
-    },
-    {
-      "title": "hgv",
-      "body": "nnv",
-      "author": "Ernest",
-      "id": 9
-    },
-    {
-      "title": "hgv",
-      "body": "nnv",
-      "author": "Ernest",
-      "id": 10
-    },
-    {
-      "title": "hgv",
-      "body": "nnv",
-      "author": "Ernest",
-      "id": 11
-    },
-    {
-      "title": "hgv",
-      "body": "nnv",
-      "author": "Ernest",
-      "id": 12
-    },
-    {
-      "title": "hgv",
-      "body": "nnv",
-      "author": "Ernest",
-      "id": 13
-    },
-    {
-      "title": "hgv",
-      "body": "nnv",
-      "author": "Ernest",
-      "id": 14
-    },
-    {
-      "title": "hgv",
-      "body": "nnv",
-      "author": "Ernest",
-      "id": 15
-    },
-    {
-      "title": "hgv",
-      "body": "nnv",
-      "author": "Ernest",
-      "id": 16
-    },
-    {
-      "title": "hgv",
-      "body": "nnv",
-      "author": "Ernest",
-      "id": 17
-    },
-    {
-      "title": "hgv",
-      "body": "nnv",
-      "author": "Ernest",
-      "id": 18
-    },
-    {
-      "title": "hgv",
-      "body": "nnv",
-      "author": "Ernest",
-      "id": 19
-    },
-    {
-      "title": "hgv",
-      "body": "nnv",
-      "author": "Ernest",
-      "id": 20
-    },
-    {
-      "title": "hgv",
-      "body": "nnv",
-      "author": "Ernest",
-      "id": 21
-    },
-    {
-      "title": "hgv",
-      "body": "nnv",
-      "author": "Ernest",
-      "id": 22
-    },
-    {
-      "title": "hgv",
-      "body": "nnv",
-      "author": "Ernest",
-      "id": 23
-    },
-    {
-      "title": "happy birthday",
-      "body": "Happy birthday to me",
-      "author": "Ernest",
-      "id": 24
-    },
-    {
-      "title": "happy birthday",
-      "body": "Happy birthday to me",
-      "author": "Ernest",
-      "id": 25
-    },
-    {
-      "title": "happy birthday",
-      "body": "Happy birthday to me",
-      "author": "Ernest",
-      "id": 26
-    },
-    {
-      "title": "jj;",
-      "body": "jnbk",
-      "author": "Ernest",
-      "id": 27
-    },
-    {
-      "title": "inioluwwa",
-      "body": "my dear friend",
-      "author": "Ernest",
-      "id": 28
-    },
-    {
-      "title": "inioluwwa",
-      "body": "my dear friend",
-      "author": "Ernest",
-      "id": 29
-    },
-    {
-      "title": "inioluwwa",
-      "body": "my dear friend",
-      "author": "Ernest",
-      "id": 30
-    },
-    {
-      "title": "inioluwwa",
-      "body": "my dear friend",
-      "author": "Ernest",
-      "id": 31
-    },
-    {
-      "title": "inioluwwa",
-      "body": "my dear friend",
-      "author": "Ernest",
-      "id": 32
-    },
-    {
-      "title": "inioluwwa",
-      "body": "my dear friend",
-      "author": "Ernest",
-      "id": 33
-    },
-    {
-      "title": "inioluwwa mi",
-      "body": "my dear friend babe",
-      "author": "Ernest",
-      "id": 34
     }
   ]
 }
