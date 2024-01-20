@@ -26,6 +26,7 @@ const Create = () => {
        .then(() => {
         console.log("new blog added");
         setIsPending(false);
+        navigate("/");
        })
     }
 
