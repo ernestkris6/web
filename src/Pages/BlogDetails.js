@@ -6,7 +6,9 @@ const BlogDetails = () => {
     const { id } = useParams();
     const {data: blog, isPending, error} = useFetch('http://localhost:8000/blogs/' + id);
     
-
+    const handleDelete = () => {
+        fetch('http://localhost:8000/blogs/')
+    }
     return ( 
         <div className="blog-details">
             <h1>Blog Details - { id }</h1>
@@ -17,7 +19,7 @@ const BlogDetails = () => {
                     <h3>{ blog.title }</h3>
                 <p><b><i>Written by { blog.author }</i></b></p> <br></br>
                <div><h3>{ blog.body }</h3></div> 
-               <button>DELETE</button>
+               <button onClick={handleDelete}>DELETE</button>
                 </article>
             ) }
         </div>
