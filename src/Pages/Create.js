@@ -9,6 +9,7 @@ const Create = () => {
     const [body, setBody] = useState('');
     const [author, setAuthor] = useState("Ernest");
     const [isPending, setIsPending] =useState(false)
+    const navigate = useNavigate();
 
     const handleSubmit = (e) => {
         e.preventDefault();
