@@ -7,7 +7,9 @@ const BlogDetails = () => {
     const {data: blog, isPending, error} = useFetch('http://localhost:8000/blogs/' + id);
     
     const handleDelete = () => {
-        fetch('http://localhost:8000/blogs/')
+        fetch('http://localhost:8000/blogs/' + blog.id {
+            method : "DELETE"
+        })
     }
     return ( 
         <div className="blog-details">
