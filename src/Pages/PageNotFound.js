@@ -5,9 +5,12 @@ const PageNotFound = () => {
 
   return (
     <div>
-        <Link  to='/'>
-        <h3>We are sorry...</h3>
+        
+        <h2>We are sorry...</h2>
         <p>This page is currently unavailable...</p>
+
+        <Link  to='/'>
+        <p>Go back to home page</p>
         </Link>
     </div>
   )
