@@ -16,7 +16,7 @@ const App =() => {
           <Route exact path="/" element={<Home />}>Home</Route>
           <Route path='/create' element={<Create />}></Route>
           <Route path='/blogs/:id' element={<BlogDetails />}></Route>
-          <Route path='/pagenotfound' element={<PageNotFound />}></Route>
+          <Route path='*' element={<PageNotFound />}></Route>
         </Routes>
         </BrowserRouter>
     </div>
