@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home';
 import Create from './Pages/Create';
 import BlogDetails from './Pages/BlogDetails';
+import PageNotFound from './Pages/PageNotFound';
 
 const App =() => {
   return (
@@ -15,6 +16,7 @@ const App =() => {
           <Route exact path="/" element={<Home />}>Home</Route>
           <Route path='/create' element={<Create />}></Route>
           <Route path='/blogs/:id' element={<BlogDetails />}></Route>
+          <Route path='/pagenotfound' element={<PageNotFound />}></Route>
         </Routes>
         </BrowserRouter>
     </div>
