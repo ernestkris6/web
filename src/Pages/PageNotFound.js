@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const PageNotFound = () => {
 
   return (
-    <div>
+    <div className='not-found'>
         
         <h2>We are sorry...</h2>
         <p>This page is currently unavailable...</p>
