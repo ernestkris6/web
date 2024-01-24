@@ -1,6 +1,6 @@
-import React, {useEffect, useState} from 'react';
-import './Home.css'
-import img9 from '../asset/img-9.jpg';
+import React from 'react';
+import './Home.css';
+
 
 import Blog from '../Blog';
 import useFetch from '../useFetch';
