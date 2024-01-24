@@ -4,3 +4,13 @@
     max-width: 600px;
     line-height: 10px;
 }
+
+.btn {
+    background-color: #f1356d;
+    padding: 10px;
+    color: #fff;
+    outline: none;
+    border-radius: 12px;
+    border: #f1356d;
+
+}
