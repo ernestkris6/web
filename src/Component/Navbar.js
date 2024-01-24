@@ -11,7 +11,7 @@ const Navbar =() => {
         <div className='links'>
             <a href='/'>Home</a>
             <a style={{
-            backgroundColor:'#c1630b', 
+            backgroundColor:'#f1356d', 
             borderRadius:'8px', 
             color: 'white', 
             padding: '6px' }} 
