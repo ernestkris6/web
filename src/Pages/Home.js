@@ -13,7 +13,7 @@ const Home = () => {
  
     return ( 
         <div className='home'>
-            <img src={img9} alt='' />
+            {/* <img src={img9} alt='' /> */}
             {error && <div>{error}</div>}
             {isPending && <div>Loading...</div>}
             {blogs && <Blog blogs={blogs} title='ALL BLOGS'/>}
