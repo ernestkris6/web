@@ -8,8 +8,10 @@
 }
 
 .navbar h1 {
-    color: #f1356d;
-    font-size: 32px;
+    color: #13044e;
+    /* color: skyblue; */
+    font-size: 48px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .navbar .links {

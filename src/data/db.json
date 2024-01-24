@@ -1,12 +1,6 @@
 {
   "blogs": [
     {
-      "id": 2,
-      "title": "Learning how to code",
-      "body": "Lorem ipsum dolor...",
-      "author": "Emma"
-    },
-    {
       "id": 3,
       "title": "Learning how to code 2",
       "body": "Lorem ipsum dolor...",

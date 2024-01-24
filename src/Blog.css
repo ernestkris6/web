@@ -11,3 +11,11 @@
  .blog-list a {
    text-decoration: none;
 }
+
+.blog-list p {
+   color:#000;
+}
+
+.blog-list h2 {
+   color: #040303;
+}
