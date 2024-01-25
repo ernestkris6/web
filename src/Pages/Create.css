@@ -1,10 +1,12 @@
+body {
+    background-image: url('../asset/img-9.jpg');
+}
+
 .create {
     max-width: 600px;
     margin: 0 auto;
     align-items: center;
 }
-
-
 
 .create input, .create textarea, .create select {
     width: 100%;
