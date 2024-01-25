@@ -1,14 +1,10 @@
 .create {
     max-width: 600px;
     margin: 0 auto;
-    /* text-align: center;
-
-    margin: 0 auto;
-    max-width: 600px; */
     align-items: center;
-    /* padding: 20px; 
-    line-height: 15px; */
 }
+
+
 
 .create input, .create textarea, .create select {
     width: 100%;
